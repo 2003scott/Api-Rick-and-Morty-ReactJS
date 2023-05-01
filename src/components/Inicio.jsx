@@ -29,7 +29,19 @@ const Inicio = () => {
             </div>
           ))
         : "No hay Datos"}
-  
+          
+        {/* {personajes !== null
+        ? personajes.map((personaje) => (
+            <div key={personaje.id}>
+              <a href={/personaje/${personaje.id}}>{personaje.name}</a>
+              <div className="w-24 rounded-xl">
+                <figure>
+                  <img src={personaje.image} alt="" />
+                </figure>
+              </div>
+            </div>
+          ))
+        : "No hay Personajes"} */}
     </div>
   );
 };

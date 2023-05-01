@@ -1,0 +1,14 @@
+.contenedormain{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    margin: 2rem;
+}

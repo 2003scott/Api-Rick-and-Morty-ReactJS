@@ -1,0 +1,9 @@
+.navbar{
+    margin: 1rem 0 1rem 0;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    height: 5rem;
+    align-items: center;
+    justify-content: start;
+}
